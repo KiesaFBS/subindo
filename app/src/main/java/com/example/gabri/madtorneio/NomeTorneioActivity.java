@@ -31,6 +31,15 @@ public class NomeTorneioActivity extends AppCompatActivity {
          for(int i =0; i <= qtdTimes ; i++){
              layout.addView(new EditText(getApplicationContext()));
          }
+
+        int qtd = layout.getChildCount();
+
+        for(int i = 0; i < qtd; i++) {
+            View childAt = layout.getChildAt(i);
+            if (childAt instanceof EditText) {
+                equipes.add(((EditText)childAt).getText().toString());
+            }
+        }
         //configurando valores
         nomeTor.setText(nome);
     }
