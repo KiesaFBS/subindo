@@ -57,9 +57,9 @@ public class qtdtimesActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),NomeTorneioActivity.class);
 
-                //String nProduto = campoTorneio.getText().toString(); //pega o que está dentro do input
+                String nProduto = campoTorneio.getText().toString(); //pega o que está dentro do input
 
-                intent.putExtra("nomeTorneio", "nProduto" );
+                intent.putExtra("nomeTorneio", nProduto );
                 intent.putExtra("qtdTorneio",cont);
 
                 startActivity(intent);

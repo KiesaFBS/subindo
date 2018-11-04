@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".qtdtimesActivity" />
-        <activity android:name=".NomeTorneioActivity"></activity>
+        <activity android:name=".NomeTorneioActivity" />
+        <activity android:name=".ScrollActivity"></activity>
     </application>
 
 </manifest>
