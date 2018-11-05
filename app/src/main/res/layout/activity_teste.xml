@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testeActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Times"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="     P" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="    J" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:text="    V " />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:text="   SG" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="    NF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+</TableLayout>

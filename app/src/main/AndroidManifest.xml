@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".qtdtimesActivity" />
         <activity android:name=".NomeTorneioActivity" />
-        <activity android:name=".ScrollActivity"></activity>
+        <activity android:name=".meusTorneiosActivity" />
+        <activity android:name=".testeActivity"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class PrincipalActivity extends AppCompatActivity {
     private Button botaoEnviar;
+    private Button meuBotao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +16,22 @@ public class PrincipalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_principal);
 
         botaoEnviar = findViewById(R.id.newButton);
+        meuBotao = findViewById(R.id.meuBotao);
 
         botaoEnviar.setOnClickListener(new View.OnClickListener() { //ao clicar no botao acontece :
             @Override
             public void onClick(View v) {
 
                 Intent intent =  new Intent(getApplicationContext(), qtdtimesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        meuBotao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), testeActivity.class);
+
                 startActivity(intent);
             }
         });
