@@ -55,7 +55,7 @@ public class qtdtimesActivity extends AppCompatActivity {
         cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NomeTorneioActivity.class);
+                Intent intent = new Intent(getApplicationContext(),NomeTimesTorneioActivity.class);
 
                 String nProduto = campoTorneio.getText().toString(); //pega o que está dentro do input
 

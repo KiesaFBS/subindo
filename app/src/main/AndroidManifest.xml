@@ -19,8 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".qtdtimesActivity" />
-        <activity android:name=".NomeTorneioActivity" />
-        <activity android:name=".meusTorneiosActivity" />
+        <activity android:name=".NomeTimesTorneioActivity" />
+        <activity android:name=".dueloTorneiosActivity" />
         <activity android:name=".testeActivity"></activity>
     </application>
 

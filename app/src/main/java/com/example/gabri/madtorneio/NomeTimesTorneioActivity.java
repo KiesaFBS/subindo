@@ -2,32 +2,28 @@ package com.example.gabri.madtorneio;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.io.Serializable;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
-public class NomeTorneioActivity extends AppCompatActivity {
+public class NomeTimesTorneioActivity extends AppCompatActivity {
     private LinearLayout layout;
     private TextView nomeTor;
     private FloatingActionButton proximo;
-    public List<String> equipes = new ArrayList<String>();
+    public ArrayList<String> equipes = new ArrayList<>();
     public int qtd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nome_torneio);
+        setContentView(R.layout.activity_nome_time_torneio);
 
 
         //criando o banco de dados
@@ -53,21 +49,27 @@ public class NomeTorneioActivity extends AppCompatActivity {
 
         qtd = layout.getChildCount();
 
-        for(int i = 0; i < qtd; i++) {
-            View childAt = layout.getChildAt(i);
-            if (childAt instanceof EditText) {
-                equipes.add(((EditText)childAt).getText().toString());
-            }
-        }
-        //configurando valores
+
+        Log.d("elementos",equipes.toString());
         nomeTor.setText(nome);
 
         proximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(),  meusTorneiosActivity.class);
-                intent.putExtra("nomesTime", (Serializable) equipes);
+                Intent intent = new Intent(getApplicationContext(),  dueloTorneiosActivity.class);
+                Log.d("qtd", String.valueOf(qtd));
+
+                //equipes = new ArrayList<>();
+
+                for(int i = 0; i < layout.getChildCount(); i++) {
+                    EditText childAt = (EditText) layout.getChildAt(i);
+                    Log.d("ccc", childAt.getText().toString());
+                    equipes.add(childAt.getText().toString());
+                }
+                //configurando valores
+
+                intent.putExtra("times",equipes);
 
 
                 startActivity(intent);
