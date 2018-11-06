@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.NomeTimesTorneioActivity">
+    tools:context=".Activity.a3NomeTimesTorneioActivity">
 
     <TextView
         android:id="@+id/nomeTorneio"

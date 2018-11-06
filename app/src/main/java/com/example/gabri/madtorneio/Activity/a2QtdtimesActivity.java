@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.example.gabri.madtorneio.R;
 
-public class qtdtimesActivity extends AppCompatActivity {
+public class a2QtdtimesActivity extends AppCompatActivity {
     private TextInputEditText campoTorneio;
     private TextView quantidade;
     private int cont = 1;
@@ -57,7 +57,7 @@ public class qtdtimesActivity extends AppCompatActivity {
         cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NomeTimesTorneioActivity.class);
+                Intent intent = new Intent(getApplicationContext(),a3NomeTimesTorneioActivity.class);
 
                 String nProduto = campoTorneio.getText().toString(); //pega o que está dentro do input
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activity.PrincipalActivity"
+            android:name=".Activity.a1PrincipalActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.qtdtimesActivity" />
-        <activity android:name=".Activity.NomeTimesTorneioActivity" />
-        <activity android:name=".Activity.dueloTorneiosActivity" />
+        <activity android:name=".Activity.a2QtdtimesActivity" />
+        <activity android:name=".Activity.a3NomeTimesTorneioActivity" />
+        <activity android:name=".Activity.a4dueloTorneiosActivity" />
         <activity android:name=".Activity.testeActivity" />
-        <activity android:name=".Activity.ganhou"></activity>
+        <activity android:name=".Activity.a41ganhou"></activity>
     </application>
 
 </manifest>

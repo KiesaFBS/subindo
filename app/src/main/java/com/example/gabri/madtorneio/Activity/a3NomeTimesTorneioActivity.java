@@ -2,7 +2,6 @@ package com.example.gabri.madtorneio.Activity;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +15,7 @@ import com.example.gabri.madtorneio.R;
 
 import java.util.ArrayList;
 
-public class NomeTimesTorneioActivity extends AppCompatActivity {
+public class a3NomeTimesTorneioActivity extends AppCompatActivity {
     private LinearLayout layout;
     private TextView nomeTor;
     private FloatingActionButton proximo;
@@ -60,7 +59,7 @@ public class NomeTimesTorneioActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(),  dueloTorneiosActivity.class);
+                Intent intent = new Intent(getApplicationContext(),  a4dueloTorneiosActivity.class);
                 Log.d("qtd", String.valueOf(qtd));
 
                 //equipes = new ArrayList<>();

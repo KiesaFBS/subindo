@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.gabri.madtorneio.R;
 
-public class ganhou extends AppCompatActivity {
+public class a41ganhou extends AppCompatActivity {
 
     private TextView texto1;
     private TextView texto2;
@@ -95,7 +95,7 @@ public class ganhou extends AppCompatActivity {
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),dueloTorneiosActivity.class);
+                Intent intent = new Intent(getApplicationContext(),a4dueloTorneiosActivity.class);
 
                 intent.putExtra("pontuacao1",cont);
                 intent.putExtra("pontuacao2",cont1);

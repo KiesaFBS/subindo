@@ -15,7 +15,7 @@ import com.example.gabri.madtorneio.R;
 
 import java.util.ArrayList;
 
-public class dueloTorneiosActivity extends AppCompatActivity {
+public class a4dueloTorneiosActivity extends AppCompatActivity {
     private TextView texto;
     private RecyclerView recycler;
     private Adapter adpt;

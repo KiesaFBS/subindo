@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import com.example.gabri.madtorneio.R;
 
-public class PrincipalActivity extends AppCompatActivity {
+public class a1PrincipalActivity extends AppCompatActivity {
     private Button botaoEnviar;
     private Button meuBotao;
 
@@ -24,7 +24,7 @@ public class PrincipalActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent =  new Intent(getApplicationContext(), qtdtimesActivity.class);
+                Intent intent =  new Intent(getApplicationContext(), a2QtdtimesActivity.class);
                 startActivity(intent);
             }
         });
