@@ -21,7 +21,8 @@
         <activity android:name=".Activity.qtdtimesActivity" />
         <activity android:name=".Activity.NomeTimesTorneioActivity" />
         <activity android:name=".Activity.dueloTorneiosActivity" />
-        <activity android:name=".Activity.testeActivity"></activity>
+        <activity android:name=".Activity.testeActivity" />
+        <activity android:name=".Activity.ganhou"></activity>
     </application>
 
 </manifest>

@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:layout_marginLeft="30dp"
-    android:layout_marginRight="30dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -32,8 +32,8 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/btAdicionar"
-        android:layout_width="27dp"
-        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="305dp"
         android:clickable="true" />
 

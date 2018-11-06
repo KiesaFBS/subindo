@@ -2,6 +2,7 @@ package com.example.gabri.madtorneio.Activity;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -72,6 +73,7 @@ public class NomeTimesTorneioActivity extends AppCompatActivity {
                 //configurando valores
 
                 intent.putExtra("times",equipes);
+                intent.putExtra("nomeTorneio", nome);
 
 
                 startActivity(intent);
