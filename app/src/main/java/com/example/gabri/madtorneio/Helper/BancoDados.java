@@ -20,6 +20,7 @@ public class BancoDados extends SQLiteOpenHelper {
         String sql = "CREATE TABLE NOT EXISTS " + Tabela_tarefas
                     + "(id INTEGER PRIMARY KEY AUTOINCREMENT," +
                     " nomTime TEXT NOT NULL);";
+        //criando mais tabelas sql +=
 
         try {
             db.execSQL(sql);

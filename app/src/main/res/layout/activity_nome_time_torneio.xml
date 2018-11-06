@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NomeTimesTorneioActivity">
+    tools:context=".Activity.NomeTimesTorneioActivity">
 
     <TextView
         android:id="@+id/nomeTorneio"
         android:layout_width="253dp"
         android:layout_height="49dp"
         android:layout_marginTop="40dp"
+        android:gravity="center"
         android:text="Nome do torneio"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,16 +24,13 @@
         android:id="@+id/proximo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
         android:clickable="true"
         app:backgroundTint="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@android:drawable/ic_media_ff" />
 
     <ScrollView
@@ -41,7 +38,7 @@
         android:layout_height="384dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/proximo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"

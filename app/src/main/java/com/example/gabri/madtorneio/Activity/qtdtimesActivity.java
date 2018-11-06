@@ -1,4 +1,4 @@
-package com.example.gabri.madtorneio;
+package com.example.gabri.madtorneio.Activity;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.gabri.madtorneio.R;
 
 public class qtdtimesActivity extends AppCompatActivity {
     private TextInputEditText campoTorneio;

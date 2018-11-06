@@ -1,4 +1,4 @@
-package com.example.gabri.madtorneio;
+package com.example.gabri.madtorneio.Activity;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.gabri.madtorneio.R;
 
 import java.util.ArrayList;
 
