@@ -19,7 +19,7 @@
             android:layout_width="21dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Placar 1"
+            android:text="Placar1"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -53,10 +53,10 @@
 
         <TextView
             android:id="@+id/placar2"
-            android:layout_width="17dp"
+            android:layout_width="21dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Placar 2"
+            android:text="Placar2"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
